@@ -6,54 +6,7 @@ Design a user management system for a web application to handle user authenticat
 ---
 
 create schema.js file and creat the schema in that file.
-
-## **Schema Requirements**
-
-### **General Requirements**
-- The schema should ensure data integrity, including unique constraints and required fields.
-
-### **User Fields**
-1. **`username`**
-   - **Type**: String
-   - **Constraints**: Required, Unique
-   - **Purpose**: Ensures each user has a distinct username.
-
-2. **`email`**
-   - **Type**: String
-   - **Constraints**: Required, Unique
-   - **Purpose**: Stores the user's email for communication and login.
-
-3. **`password`**
-   - **Type**: String
-   - **Constraints**: Required
-   - **Purpose**: Stores securely hashed user login credentials.
-
-4. **`roles`**
-   - **Type**: Array of Strings
-   - **Purpose**: Defines user roles for access control (e.g., `['user', 'admin']`).
-
-### **Profile Fields**
-- An embedded document containing personal details:
-  1. **`firstName`**
-     - **Type**: String
-     - **Purpose**: Stores the user's first name.
-  2. **`lastName`**
-     - **Type**: String
-     - **Purpose**: Stores the user's last name.
-  3. **`age`** *(Optional)*
-     - **Type**: Number
-     - **Purpose**: Records the user's age.
-
-### **Activity Tracking**
-1. **`lastLogin`**
-   - **Type**: Date
-   - **Purpose**: Records the date and time of the user's last login.
----
-
-## **Deliverable**
-- Write a MongoDB schema for the above user management system, ensuring all required fields, unique constraints, and data types are correctly implemented.
-
-
+ 
 # **How to Fork and Set Up Your Repository**
 
 ---
